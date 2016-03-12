@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Assignment 3 - Database</title>
+	<script type="text/javascript" src="http://76.28.150.193:8888/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="./gameengine.js"></script>
+    <script type="text/javascript" src="./assetmanager.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+	<script type="text/javascript" src="./socket.js"></script>
+    
+</head>
+<body>
+    <h1>Todd Robbins</h1>
+	<h2>Computatuional Worlds assignment 3</h2>
+    <canvas id="gameWorld" width="600" height="330" style="border: 1px solid white; background: black"></canvas>
+	<p>This simulation is a dodgeball style match between the red and blue circle teams</p>
+	<p>Unlike normal dodgeball the balls are placed in random locations along a fixed x access</p>
+	<p> to avoid repeated results</p> 
+	
+    <div>Right click and "Inspect Element".  Select the Console Tab to see the debugger output.</div>
+	    <br />
+		<label for="state">State Name</label>
+		<input type="text" id="state" />
+		<br />
+		<button id="save">Save</button>
+		<button id="load">Load</button>
+</body>
+</html>
